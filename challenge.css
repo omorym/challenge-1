@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+body{
+    background-color: #f8f9fb;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 2px solid rgba(10,37,64, .32);
+    background-color: white;
+}
+.notif img{
+    height: 24px;
+    width: 24px;
+}
+.notif{
+    display: flex;
+    gap: 2px;
+}
+.two{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #f33451 ;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+a {
+    text-decoration: none;
+}
+.top{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   justify-content: center;
+   align-items: center;
+   color: #103B66;
+}
+.rectangle{
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 16px;
+    margin: 16px;
+    gap: 16px;
+    color: #103B66;
+}
+main{
+    margin: 20px 200px;
+    background-color: #f8f9fb;
+}
+.box img{
+    width: 60px;
+    height: 60px;
+}
+.one{
+    display: flex;
+    gap: 16px;
+    color: #103B66;
+}
+.box {
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #103B66;
+}
+.container{
+    height: 400px;
+    font-weight: 450;
+    color: #103B66;
+}
+#head1{
+    font-weight: 500;
+}
+.three{
+    display: flex ;
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: 450;
+    color: #103B66;
+}
+#head2{
+    font-weight: 500;
+}
+.head2 img{
+    width: 60px;
+    height: 60px;
+}
+.zero{
+    display: flex;
+    gap: 8px;
+    font-size: small;
+}
+.advanced{
+    display: flex;
+    gap: 16px;
+}
